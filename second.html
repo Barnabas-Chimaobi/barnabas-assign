@@ -1,0 +1,32 @@
+<doctype <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="second.css" />
+  
+</head>
+<body>
+  <div class="container">
+    <h2 class="heading">Loan Calculator</h2>
+    <form id="forms">
+      <input type="number" placeholder="Loan Amount" id="loan">
+      <input type="number" placeholder="Annual Interest" id="interest">
+      <input type="number" placeholder="Repayment Years" id="years">
+      <input type="submit" value="Calculate">
+    </form>
+    <div id="loading">
+     <img src="img/loader.gif" alt="">
+    </div> 
+    <div class="result">
+      <h5 id="result">RESULTS</h5>
+      <input type="" value="Monthly Payment" id="Monthly" disabled>
+      <input type="" value="Total Payment"  id="Total" disabled>
+      <input type="" value="Total Interest" id="Gain" disabled>
+    </div> 
+  </div>
+  <script src="second.js"></script>
+</body>
+</html>

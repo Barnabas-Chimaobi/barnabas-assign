@@ -1,0 +1,43 @@
+body {
+  background:lightgreen;
+  border: 1px solid gray;
+  padding: 10px;
+
+}
+
+
+.card-content {
+  margin-bottom: 30px;
+}
+
+label {
+  font-size: 12px;
+}
+
+input.btn {
+  background: blue;
+  color: white;
+  border: 1px solid;
+  padding: 5px;
+}
+
+ a {
+  background: blue;
+  color: white;
+  border: 1px solid;
+  padding: 5px;
+  text-decoration: none
+}
+.delete-item {
+  margin-left: 400px;
+  border-block-start-style: unset;
+}
+
+li {
+display: flex;
+justify-content: space-between;
+}
+
+label {
+  color: rgba(50,50,50,0.5)
+}
