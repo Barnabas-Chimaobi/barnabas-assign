@@ -62,3 +62,47 @@ h4 {
 label {
   color: rgba(50,50,50,0.5)
 } */
+.button{
+  margin-left: 90%;
+}
+
+.contain {
+  border: 1px solid gray;
+  display: none;
+  background: white;
+  height: 70%;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+
+}
+
+.contain button {
+  width: 80px;
+  height: 30px;
+
+}
+
+.contain input {
+  width: 160px;
+  height: 30px;
+}
+
+.type {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center
+}
+
+#show {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.fly {
+  border: 1px solid gray;
+  padding: 5px ;
+  background: lightblue
+}

@@ -1,0 +1,50 @@
+body{
+  background: url(images/nature2.jpeg);
+  width: 80% 
+}
+.access {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  padding: 10px;
+  width: 300px;
+  margin-left: 400px;
+  border-radius: 8px;
+  align-items: center
+
+}
+
+.access input {
+ width: 130px;
+ margin: 11px;
+ height: 25px;
+}
+
+.access h5 {
+  color: white
+}
+
+.username {
+  display: flex;
+  flex-direction: row;
+}
+
+.password {
+  display: flex;
+  flex-direction: row;
+}
+
+label {
+  color: white;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  background: gold
+}
+
+a button:hover{
+  color: blue;
+}
